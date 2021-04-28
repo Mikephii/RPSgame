@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+
+        <div class='heading'>
+            <h1 id='heading'>Rock Paper Scissors!</h1>
+        </div>
+
+        <div class='imageBox'>
+
+        <img class="images" id='player' src='https://upload.wikimedia.org/wikipedia/commons/7/74/Scissors_icon_black.svg'>
+        
+        <img class="images" id='opponent' src = 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Question-mark-blackandwhite.png'>
+
+        </div>
+
+        <form class='buttons-form'>
+            <button type='button' class='button' id='rock'>Rock</button>
+            <button type='button' class='button' id='paper'>Paper</button>
+            <button type='button' class='button' id='scissors'>Scissors</button>
+        </form>
+
+        <div id='results'>
+            <div id='commentary'></div>
+            <div id= 'winloss'></div>
+            <div id= 'counters'>
+                <div class='counter' id ='playercount'>0</div>
+                <div class='counter' id ='opponentcount'>0</div>
+            </div>
+
+        </div>
+
+        <div id='finalresultwrap'>
+            <p id='finalresult'></p>
+            <button type='submit' onclick="window.location.reload();">play again?</button>
+        </div>
+
+
+
+
+        <script src="script.js">
+            
+        </script>
+    </body>
+</html>
